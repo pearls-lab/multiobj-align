@@ -1,0 +1,9 @@
+name_or_path: EleutherAI/pythia-2.8b  # Path to the pre-trained model
+tokenizer_name_or_path: null  # Default tokenizer, derived from model if not set
+num_heads: 3  # Number of preference dimensions
+archive: null  # Path to model archive (if loading from a saved checkpoint)
+block_name: GPTNeoXLayer  # Layer type for the model
+
+policy_dtype: float32  # Data type for the main policy model
+fsdp_policy_mp: null  # Mixed precision type for FSDP (e.g., float16, bfloat16)
+reference_dtype: float16  # Data type for the reference model

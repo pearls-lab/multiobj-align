@@ -1,0 +1,11 @@
+ipykernel
+numpy
+tokenizers
+torch
+tqdm
+transformers
+datasets
+beautifulsoup4
+wandb
+hydra-core
+tensor-parallel
