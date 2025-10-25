@@ -49,7 +49,7 @@ Our approach is implemented across three diverse domains, each with multiple obj
 
 ## Process Reward Model Training
 
-We train Process Reward Models (PRMs) across all domains. See [`prm_train/README.md`](prm_train/README.md) for detailed documentation.
+We train Process Reward Models (PRMs) across all domains.
 ```bash
 cd prm_train
 
@@ -135,7 +135,7 @@ Use domain-specific inference scripts multiple configurations (base model, head 
 
 ## PRM-Guided Decoding with Continuing Hidden State
 
-Our novel test-time optimization method that maintains hidden-state continuity during guided generation. See [`prm_guided_decoding/README.md`](prm_guided_decoding/README.md) for detailed documentation.
+Our novel test-time optimization method that maintains hidden-state continuity during guided generation.
 
 ```bash
 cd prm_guided_decoding
@@ -182,7 +182,7 @@ bash scripts/guide_sm_unified.sh
 
 ## Evaluation
 
-All evaluation scripts are in the `eval/` directory. See [`eval/README.md`](eval/README.md) for detailed documentation.
+All evaluation scripts are in the `eval/` directory.
 
 ```bash
 cd eval
